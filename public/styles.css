@@ -912,7 +912,6 @@ html {
     opacity: 1;
   }
 }
-<<<<<<< HEAD
 /* Button Improvements - Version 1 */
 .btn-primary {
   background-color: #667eea;
@@ -923,30 +922,18 @@ html {
 .btn-secondary {
   background-color: #6c757d;
   border-radius: 8px;
-=======
-/* Button Colors - Version 2 */
+}
+/* Button Styles - Combined */
 .btn-primary {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border: none;
+  border-radius: 8px;
+  font-weight: 600;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .btn-secondary {
   background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
   border: none;
->>>>>>> feature/button-colors
-}
-/* Button Styles - Combined */
-.btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border: none;
-    border-radius: 8px;
-    font-weight: 600;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.btn-secondary {
-    background: linear-gradient(135deg, #6c757d 0%, #495057 100%);
-    border: none;
-    border-radius: 8px;
+  border-radius: 8px;
 }
